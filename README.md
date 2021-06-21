@@ -8,4 +8,4 @@ The notebook contains a model I made from scratch to evaluate if a keyword(a sho
 The notebook contains a model I made to do keyword-extraction using Seq2Seq neural network with Attention mechanism.
 
 
-#### For more information, please click into the file or contacts colin100113@gmail.com
+#### For more information, please click into the file or contact colin100113@gmail.com
