@@ -1,5 +1,5 @@
 # Data_Science_with_Ecommerce
-This repository contains some sample codes of my work as a data scientist in an ecommerce company.
+This repository contains some sample codes of my work as a data analyst in an ecommerce company.
 # Note: All the codes are contructed out of work-time and is not the one implenented in the company.
 
 ### In model_verify_pair.ipynb
