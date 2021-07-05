@@ -7,7 +7,7 @@ The notebook contains a sample of the model I made from scratch to evaluate if a
 Document: https://drive.google.com/file/d/1dtcGsG5hdpcTmjQyAazJNln9CWExpkG_/view?usp=sharing
 
 ### In model_keyword_extract.ipynb
-The notebook contains a sample of the model I made to do keyword-extraction using Seq2Seq neural network with Attention mechanism.
+The notebook contains a sample of the model I made to do keyword-extraction using Seq2Seq neural network with Attention mechanism.  
 Document: https://drive.google.com/file/d/1556wOoSn0J5QndMONszPfboSX_AbXATm/view?usp=sharing
 
 #### For more information, please click into the file or contact colin100113@gmail.com
