@@ -1,4 +1,4 @@
-# Data Science with E-commerce
+# Data Science in E-commerce
 
 This repository contains sample code for data analysis work carried out as a data analyst in an e-commerce company.
 
