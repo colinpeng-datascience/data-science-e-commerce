@@ -35,8 +35,6 @@ This notebook illustrates a model designed for keyword extraction using a Seq2Se
 - `model_verify_pair.ipynb`
 - `model_keyword_extract.ipynb`
 
-## License
-This project is licensed under the MIT License
 
 ## Disclaimer
 The code and documents in this repository are reproductions and generalizations of work conducted during a previous internship. The reproduction process involved creating original content outside of work hours and modifying the original work to ensure the removal of any proprietary or sensitive information related to the company. The intent is to showcase skills and knowledge gained during the internship without disclosing confidential or proprietary details.
