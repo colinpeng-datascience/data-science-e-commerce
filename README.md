@@ -6,7 +6,7 @@ This repository contains sample code for data analysis work carried out as a dat
 
 ### 1. Model Verify Pair (`verify_pair.ipynb`)
 
-This Jupyter notebook showcases a model developed from scratch to determine if a keyword and a sentence are a match. The model employs two encoder Recurrent Neural Networks (RNNs), one for the keyword and another for the description. An Attention-like mechanism is integrated, concatenating the encoded keyword to every word of the sentence, ensuring the model remembers the keyword while processing the sentence.
+This Jupyter notebook showcases a model developed from scratch to determine if a keyword and a sentence are a match. The model employs two encoder Recurrent Neural Networks (RNNs), one for the keyword and another for the description. A residual-connection-like mechanism is integrated, concatenating the encoded keyword to every word of the sentence, ensuring the model remembers the keyword while processing the sentence. There was also BERT version of this structure, which simply used the pre-trained BERT instead of training the two encoders from scratch.
 
 **Document**: [Model Verify Pair Document](documents/verify_pair.pdf)
 
