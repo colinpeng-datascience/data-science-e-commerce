@@ -1,46 +1,50 @@
-# Data Science in E-commerce
+# Data Science Applications in E-commerce
 
-This repository contains sample code for data analysis work carried out as a data analyst in an e-commerce company.
+This repository contains sample code and documentation for data analysis and machine learning applications suitable for an e-commerce context, as well as broadly for any business needing sophisticated text analysis and natural language processing.
 
 ## Models
 
-### 1. Model Verify Pair (`verify_pair.ipynb`)
+### 1. Text Pair Verification Model (`verify_pair.ipynb`)
 
-This Jupyter notebook showcases a model developed from scratch to determine if a keyword and a sentence are a match. The model employs two encoder Recurrent Neural Networks (RNNs), one for the keyword and another for the description. A residual-connection-like mechanism is integrated, concatenating the encoded keyword to every word of the sentence, ensuring the model remembers the keyword while processing the sentence. There was also BERT version of this structure, which simply used the pre-trained BERT instead of training the two encoders from scratch.
+The Jupyter notebook included shows a model intended to assess the correspondence between a keyword and a sentence. This model employs dual encoder Recurrent Neural Networks (RNNs) for encoding, and introduces a connection resembling residual networks to preserve the keyword context during sentence processing. One can also modify the encoders to pre-trained BERT models for exploiting the pre-trained features.
 
-**Document**: [Model Verify Pair Document](documents/verify_pair.pdf)
+**Document**: [Text Pair Verification Model Overview](documents/verify_pair.pdf)
 
-### 2. Model Keyword Extract (`keyword_extract.ipynb`)
+### 2. Keyword Extraction Model (`keyword_extract.ipynb`)
 
-This notebook illustrates a model designed for keyword extraction using a Seq2Seq neural network with an Attention mechanism.
+This notebook outlines a sequence-to-sequence (Seq2Seq) model enhanced with an Attention mechanism, aimed at keyword extraction from texts. The application is typical in various data analysis initiatives.
 
-**Document**: [Model Keyword Extract Document](documents/keyword_extract.pdf)
+**Document**: [Keyword Extraction Model Overview](documents/keyword_extract.pdf)
 
-## Tech Stack
+## Technology Stack
 
 - **Programming Language**: Python
-- **Libraries and Frameworks**: TensorFlow, PyTorch, Pandas, NumPy
-- **Notebook Environment**: Jupyter Notebooks
-- **Version Control**: Git
+- **Key Libraries and Frameworks**: TensorFlow, PyTorch, Pandas, NumPy
+- **Development Environment**: Jupyter Notebooks
+- **Source Control Management**: Git
 
-## How to Run
+## Execution Instructions
 
-1. Clone the repository:
+1. Retrieve the repository:
 
-   ```bash
-   git clone https://github.com/your-username/your-repo.git
+    ```bash
+    git clone https://github.com/your-username/your-repo.git
+    ```
 
-2. Open and run the Jupyter notebooks:
+2. Execute the Jupyter notebooks within the environment:
 
-- `model_verify_pair.ipynb`
-- `model_keyword_extract.ipynb`
+    - `verify_pair.ipynb`
+    - `keyword_extract.ipynb`
 
+## General Disclaimer
 
-## Disclaimer
-The code and documents in this repository are reproductions and generalizations of work conducted during a previous internship. The reproduction process involved creating original content outside of work hours and modifying the original work to ensure the removal of any proprietary or sensitive information related to the company. The intent is to showcase skills and knowledge gained during the internship without disclosing confidential or proprietary details.
+The contents of this repository are designed as a representation of common data analysis and machine learning techniques. The materials are intentionally generic to serve educational purposes and as portfolio samples.
 
-Important Points:
+Key Notes:
 
-- All reproductions and modifications were made with the utmost respect for intellectual property rights and adherence to any confidentiality or non-disclosure agreements signed during the internship.
-- The content presented here is not an exact replica of the work done during the internship but has been altered to maintain anonymity and prevent the disclosure of proprietary information.
-- This repository and its contents do not imply any endorsement or approval from the former employer, and the work presented here is solely intended for educational and portfolio demonstration purposes.
+- The creation of content fully respects intellectual property and any binding legal obligations.
+- The provided examples are generic and do not replicate any actual industrial or proprietary work.
+- The focus is on demonstrating technical methods and concepts in data science and machine learning.
+- There is no implication of endorsement or connection to any company or entity, and these methods are purely theoretical applications.
+
+The repository is intended for showcasing skills and for educational usage within the field of data science.
